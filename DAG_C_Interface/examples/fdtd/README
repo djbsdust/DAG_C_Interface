@@ -1,0 +1,35 @@
+two group of versions
+preliminary version, 1d-tiled version
+     (serial, omp_1d, dag_1d)
+bk_versions, are 2d-tiled version
+     (serial_bk, omp, dag)
+
+-----------BUILD----------------
+HOW to build: (OPT or DEBUG, choose one!)
+
+		make dag OPT='-O3' EXTRA_FLAGS='-Dnx=4096 -Dny=4096'
+#this version will only use -g but not -O3
+        make dag DEBUG='-g' EXTRA_FLAGS='-Dnx=4096 -Dny=4096'
+#this version will not use -O3
+        make omp EXTRA_FLAGS=' -Dnx=4096 -Dny=4096'
+
+-----------RUN?---------------------
+HOW to execute?
+bk_version: 
+  ./a.out tmax tile_size1 tile_size2 num_thread
+ordinary version
+ ./a.out tmax tile_size1 num_thread
+
+----------TUNE PERFORMANCE------------
+tile shape
+  for omp, 
+     Equilateral tile shape will give better performance
+     for mesh space 4096*4096, 256*256 is almost the best tile size for a certain x86 machine.
+  
+  for dag,
+     we need flat tile shape, letting tasks have less neighbor dependences.
+	 
+	 eg. for mesh space 4096*4096
+	 currently,flat tile shape 4*4096 seems almost best for dag on a certain 8-core intel machine, 
+	 although its working set will be 384K ,a little bigger than L2
+

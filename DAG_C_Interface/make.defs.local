@@ -1,0 +1,77 @@
+##compiler option
+##usage 
+##
+##
+##
+
+#TODO support MIC
+MIC=false
+SW=false
+
+#use memory pool
+MEMORY_POOL=false
+
+#list end task
+SPECIFY_END_TASKS=false
+
+#for debug lib
+DEBUG=false
+
+#for debug dag graph
+DEBUG_GRAPH=false
+
+#for statiatic vertial info and time
+ACEMESH_PROFILING=false
+
+ACEMESH_PROFILING_EACH_TASK=false
+#for tbb profiling support for vtune
+Profiling=false
+
+# PAPI_PERFORMANCE is main switch of PAPI 
+# evaluate each task by default
+# if PAPI_PERFORMANCE_TOTAL=true, evaluate total graph
+PAPI_PERFORMANCE=false
+PAPI_PERFORMANCE_TOTAL=false
+PAPI_DIR=${PAPI_HOME}
+#/opt/papi
+
+#scheduler:dynamic_scheduler/AceMesh_scheduler
+#SCHEDULER=dynamic_scheduler
+SCHEDULER=AceMesh_scheduler
+
+# cpu bind or not
+CPU_BIND=true
+# affinity and partition
+AUTO_AFFINITY=true
+#NONE AUTO MANUAL
+SUPPORT_PARTITION=NONE
+
+# not reset affinity in begin_split_task when ALL_CYCLC=true
+ALL_CYCILC=false
+
+#for NOT MPI STRATEGY
+NOT_MPI_STRATEGY=true
+#for extra thread
+EXTRA_THREAD=true
+#for blocking queue
+BLOCKING_QUEUE=false
+
+#for MPI_TEST_LIGHT
+MPI_TEST_LIGHT=false
+
+#for hierarchical execution
+ACEMESH_THREAD_GROUP=false
+
+#NO_PARALLEL
+#FOR_PARALLEL
+PARALLEL_LEVEL=NO_PARALLEL
+#PARALLEL_LEVEL=FOR_PARALLEL
+#
+#
+#
+
+#for concurrent make dag graph
+CONCURRENT_CONSTRUCT_GRAPH=false
+
+#for check data race in user's code  
+DATA_RACE_TRACE=false

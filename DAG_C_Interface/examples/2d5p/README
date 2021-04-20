@@ -1,0 +1,29 @@
+-----------MAKE------------
+make
+1)use default SIZEX/SIZEY sizes
+   make dag/omp
+2)use different SIZEX/SIZEY sizes
+   make dag EXTRA_FLAGS=' -DSIZEX=2048 -DSIZEY=2048'
+3) select compiler
+  if use GCC 
+  make CC=gcc CXX=g++ omp  EXTRA_FLAGS='-DSIZEX=2048 -DSIZEY=2048'
+  since omp version is cpp file, while dag version is C codes.
+
+------------RUN-----------------
+run
+   ./2d5p_dag niter blkx blky num_threads
+
+------------TUNE PERFORMANCE--------
+performance
+  for omp, 
+     Equilateral tile shape will give better performance
+     for mesh space 4096*4096, 128*128 is a good tile size for cpu.
+  
+  for dag,
+     we need flat tile size, letting tasks having less neighbor dependences.
+	 and we should try best to fit the tile size into L1 if possible
+	 eg. for mesh space 4098*4096
+	 4*4096 is a good tile size, it lets :
+	 1) tasks have neighbors along one dimension, 
+	 2) and the working set of one single task can fit in L1 (usually 32K).
+

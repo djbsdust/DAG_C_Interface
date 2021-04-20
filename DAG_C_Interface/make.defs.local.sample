@@ -1,0 +1,47 @@
+##compiler option
+##usage 
+##
+##
+##
+
+
+#for debug lib
+DEBUG=true
+
+#for debug dag graph
+DEBUG_GRAPH=true
+
+#for statiatic vertial info and time
+ACEMESH_PROFILING=true
+
+PAPI_PERFORMANCE=false
+PAPI_DIR=/opt/papi
+
+AUTO_AFFINITY=true
+#NONE AUTO MANUAL
+SUPPORT_PARTITION=NONE
+
+#scheduler:dynamic_scheduler/AceMesh_scheduler
+SCHEDULER=AceMesh_scheduler
+
+# cpu bind or not
+CPU_BIND=false
+
+#for hierarchical execution
+ACEMESH_THREAD_GROUP=false
+
+#TODO support MIC
+MIC=false
+
+#NO_PARALLEL
+#FOR_PARALLEL
+PARALLEL_LEVEL=NO_PARALLEL
+#PARALLEL_LEVEL=FOR_PARALLEL
+#
+#
+#
+#for tbb profiling support for vtune
+Profiling=false
+
+#for check data race in user's code  
+DATA_RACE_TRACE=false

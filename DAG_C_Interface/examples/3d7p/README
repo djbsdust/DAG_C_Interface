@@ -1,0 +1,57 @@
+although this is a 3d example
+but we only parallelize two dimensions,
+So this case is really a two-dimension example with only four neighboring dependences.
+
+---------MAKE----------
+How make: 
+1) use default SIZEX/SIZEY/SIZEZ
+make dag/omp/fdag/upch
+
+
+but different macro definition
+   for C and C++, define SIZEX/SIZEY/SIZEZ
+   for Fortran, also define BLKX/BLKY/ITER
+2) select compiler
+  if use GCC
+  make CC=gcc CXX=g++ omp  EXTRA_FLAGS=' -DCHECK -DSIZEX=384 -DSIZEY=384 -DSIZEZ=384'
+  since omp version is cpp file, while dag version is C codes.
+3)link among different compilers
+  if you use gcc or upch, you had better re-build dag library with gcc 
+  or else,  undefined reference to `_intel_fast_memset'
+  
+
+4) use different  SIZEX/SIZEY/SIZEZ
+omp and cdag: 
+   make omp  EXTRA_FLAGS=' -DSIZEX=384 -DSIZEY=384 -DSIZEZ=384'
+   make dag  EXTRA_FLAGS=' -DSIZEX=384 -DSIZEY=384 -DSIZEZ=384'
+fdag: 
+   ATTENTION!!! we use FFLAGS in the following line
+   make fdag  EXTRA_FFLAGS=' -DSIZEX=384 -DSIZEY=384 -DSIZEZ=384 -DBLKX=16 -DBLKY=16 -DITER=40'
+
+----------RUN------------
+Run
+for C programs, such as omp or cdag
+   ./3d7p_dag niter blkx blky num_threads
+
+but for fortran dag program
+   export ACEMESH_NUM_THREADS=4
+   ./3d7p_dag
+
+---------TUNE PERFROMANCE----------
+performance
+  for omp, 
+     Equilateral tile shape will give better performance
+     for mesh space 256*256*256, 8*16(*256) is a good tile size for cpu.
+  
+  for dag,
+     we need flat tile shape, letting tasks having less neighbor dependences.
+	 but 3d-stencils, such tile shape will overfit L2, and incurs worse performance.
+	 
+	 eg. for mesh space 256*256*256
+	 currently, 16*16(*256) seems best for dag, although its working set will be 1M , bigger than L2
+	 and 8*16(*256) or 8*8(*256) are a little worse.
+
+	 flat tile shape 2*128(*256) will have worse performance, and
+	 1*256(*256) is even worse.
+	 because we makes intra-task L2 cache reuse much poorer.
+     

@@ -1,0 +1,40 @@
+#!/bin/sh
+
+SRC=.
+INSTALL_PATH=~/dag_task_scheduler_test
+#_1level
+
+mkdir ${INSTALL_PATH}
+mkdir ${INSTALL_PATH}/include
+mkdir ${INSTALL_PATH}/lib
+
+cd ${SRC}
+
+make clean
+make DagTaskScheduler_static
+#make DagTaskScheduler_dynamic
+
+cp ${SRC}/aceMesh_runtime_install.h ${INSTALL_PATH}/include/aceMesh_runtime.h
+cp ${SRC}/aceMesh_task_install.h    ${INSTALL_PATH}/include/aceMesh_task.h
+cp ${SRC}/concurrent_aceMesh_task.h    ${INSTALL_PATH}/include/
+
+cp ${SRC}/DataRace.h   ${INSTALL_PATH}/include/ 
+cp ${SRC}/WrapRep.h         ${INSTALL_PATH}/include/ 
+cp ${SRC}/DataRaceTrace.h   ${INSTALL_PATH}/include/ 
+
+#added by zhanghui
+cp ${SRC}/aceMesh_hierarchy_task_install.h ${INSTALL_PATH}/include/aceMesh_hierarchy_task.h
+cp ${SRC}/splitter.h ${INSTALL_PATH}/include/
+cp ${SRC}/thread_group.h ${INSTALL_PATH}/include/
+cp ${SRC}/aceMesh_scheduler_init.h ${INSTALL_PATH}/include/
+cp ${SRC}/task_dag_graph.h ${INSTALL_PATH}/include/
+cp ${SRC}/trace_out.h ${INSTALL_PATH}/include/
+cp ${SRC}/dag_graph_check.h ${INSTALL_PATH}/include/
+cp ${SRC}/chombo_interface.h ${INSTALL_PATH}/include/
+cp ${SRC}/range.h ${INSTALL_PATH}/include
+cp ${SRC}/tbb_thread_local.h ${INSTALL_PATH}/include
+
+cp ${SRC}/libdag_task_scheduler.so ${INSTALL_PATH}/lib/
+cp ${SRC}/libdag_task_scheduler.a ${INSTALL_PATH}/lib/
+
+make clean

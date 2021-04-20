@@ -1,0 +1,153 @@
+There are three kinds of interfaces: 
+
+I) function-like interface: 
+you do not need to write object-oriented codes, no need of 'class' in the user programs
+user program can be a C program.
+eg1.
+
+    begin_split_task("stencil");    
+    for (int id = 0; id < boxsize; ++id)
+    {
+        Box *destBx = lhs[id];
+        Box *srcBx = rhs[id];
+        targs boxes;
+        boxes.m_dest = destBx;
+        boxes.m_src = srcBx;
+        boxes.m_ext = m_ext;
+        boxes._alpha = m_alpha;
+        boxes._beta = m_beta;
+
+        acemesh_push_wrlist(1, destBx, UNSHADE);
+        acemesh_push_rlist(2,  srcBx, SHADE,  srcBx, UNSHADE);
+        acemesh_task_generator((TASK_FUNCPTR)_do_stencil,
+                      (void*)(&boxes), sizeof(targs)); 
+        acemesh_task_set_type(STENCIL_TASK);
+
+    }
+    end_split_task();
+eg2.
+
+    for (ts = 0 ; ts < tstotal; ts++)
+    {
+      int idx = 0;
+
+      begin_split_task();
+      for (i2 = 1; i2 < n2-1; i2 += blocks[2])
+      for (i1 = 1; i1 < n1-1; i1 += blocks[1])
+      for (i0 = 1; i0 < n0-1; i0 += blocks[0])
+        {
+          //omit some codes......
+          targs each;
+          each.m_lhs = m_lhs;
+          each.m_rhs = m_rhs;
+          each.m_low = low;
+          each.m_high = hig;
+          each.m_ext = m_ext;
+          each.m_alpha = m_alpha;
+          each.m_beta = m_beta;
+          
+          acemesh_push_wlist(1, &m_lhs[GADDR(i0,i1,i2,i3)],NORMAL);
+          acemesh_push_rlist(1, &m_rhs[GADDR(i0,i1,i2,i3)], NORMAL);
+          acemesh_task_generator_with_neighbors((TASK_FUNCPTR)_do_stencil,
+                      (void*)(&each), sizeof(targs), 
+                      NULL, (NEIGHBOR_FUNCPTR)_get_neighbors, &each);
+          acemesh_task_set_type(STENCIL_TASK);
+          ++idx;
+        }
+        
+      end_split_task();
+   }
+
+II) ci_task interface
+  you still need a cpp compiler.
+  you still can see the task object
+  But you do not need to encapsulate your kernel loops into classes.
+
+    for (ts = 0 ; ts < tstotal; ts++)
+    {
+      int idx = 0;
+    
+      begin_split_task("red");
+      for (i2=0; i2<dimL[2]; i2+=blocks[2])
+      for (i1=0; i1<dimL[1]; i1+=blocks[1])
+        for (i0=0; i0<dimL[0]; i0+=blocks[0])
+        {
+          //omit some codes......
+          targs each;
+          each.m_lhs = m_u;
+          each.m_rhs = m_v;
+          each.m_low = lo;
+          each.m_high = hi;
+          each.m_ext = m_ext;
+          each.whichpass=0;
+           
+          ci_task* _task = ACEMESH_NEW ci_task((TASK_FUNCPTR)_do_level_gsrb);
+          _task->define(&each, sizeof(targs));
+          _task->define_neighbors((NEIGHBOR_FUNCPTR)_get_lg_neighs, &each);
+          _task->set_task_type(STENCIL_TASK);
+          register_task(_task,3, 
+                  blaptr(&m_u[GSADDR(i0,i1,i2,i3)]), 
+                  NORMAL, NEIGHBOR_NONE, INOUT, INOUT_NONE,
+                  redptr(&m_u[GSADDR(i0,i1,i2,i3)]),
+                  NORMAL, NEIGHBOR_ALL, IN, IN,
+                  &m_v[GSADDR(i0,i1,i2,i3)],
+                  NORMAL, NEIGHBOR_NONE, IN, INOUT_NONE);
+           ++idx;
+        }
+      end_split_task();
+    }  
+
+III) aceMesh_task interface
+  you need to encapsulate a class for each compputation task.
+
+eg. 
+class Dag_3d7p_Task: public aceMesh_task {
+public:
+    int starti, endi;
+    int startj, endj;
+    int k_N;
+    int iter;
+    
+    Dag_3d7p_Task(int i1, int i2, int j1, int j2, int k, int itr):
+        starti(i1), endi(i2), 
+        startj(j1), endj(j2), k_N(k), 
+        iter(itr)
+    { }
+    virtual void get_neighbor(int neighbor, void* src_addr, std::vector<void*>& neighbor_addrs)
+    {
+        //omit some codes here
+    }
+    task* execute() {
+        bool dest = iter  % 2 ;
+        bool src = 1 - dest;
+        for(int i = starti; i < endi; i++)
+        for(int j = startj; j < endj; j++)
+        for(int k = 1; k < k_N - 1; k++) 
+             Do3d7pkernel(dest,src,i,j,k);
+        return aceMesh_task::execute();
+    }
+};
+
+... ...
+    for(int itr = 0; itr < iter; ++itr)
+    {
+        begin_split_task("3d7p iter");
+        for(int i = 1; i < n -1; i += blocsizex)
+        {
+            int endi = (i + blocsizex > n -1 ) ? n - 1 : i + blocsizex;
+            int indexi = (i-1) / blocsizex;
+            for(int j = 1; j < n -1; j += blocsizey)
+            {
+                int indexj = (j-1) / blocsizey;
+                int endj = (j + blocsizey > n -1 ) ? n - 1 : j + blocsizey;
+                aceMesh_task* t = ACEMESH_NEW Dag_3d7p_Task(i, endi, j, endj, n, itr);
+                t->set_task_type(STENCIL_TASK);
+                register_task(t,2, &A[itr%2][i][j][0], NORMAL, NEIGHBOR_NONE, OUT, INOUT_NONE, 
+                       &A[(itr+1)%2][i][j][0], NORMAL, 
+                       NEIGHBOR_UP | NEIGHBOR_DOWN | NEIGHBOR_LEFT | NEIGHBOR_RIGHT, IN, IN);
+
+            }
+        }
+        end_split_task();
+    }
+

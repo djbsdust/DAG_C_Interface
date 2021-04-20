@@ -1,0 +1,17 @@
+The example is in a mess
+some of the functions are extracted out of blas library, while one of them still call BLAS directly.
+Is there a resonable explanation? 
+Perhaps we should fix it.
+
+
+this example now need BLAS library
+But I am not sure if we really need the following path designation? please make sure... 
+export LD_LIBRARY_PATH=/opt/OpenBLAS/lib:$LD_LIBRARY_PATH
+
+
+how make?
+  make dag
+  make omp
+
+How run
+  ./a.out nblocks dimext num_threads

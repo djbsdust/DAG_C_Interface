@@ -1,0 +1,34 @@
+#makefile for offload 
+#
+#CC=icpc
+##CFLAGS = -std=c++0x -fPIC -O3 -Wall #-D_RETURN_VERTICAL #-DDEBUG_GRAPH  
+#CFLAGS = -std=c++0x -O3 -Wall -D_RETURN_VERTICAL #-DDEBUG_GRAPH  
+#LIBFLAGS=  /opt/intel/tbb/lib/mic/libtbb.so.2 #-ltbb -L/opt/intel/tbb/lib/mic/
+#
+#source_h                     = aceMesh_runtime.h 
+#source_aceMesh_cpp           = aceMesh_runtime.cpp 
+#source_task_dag_graph_cpp    = task_dag_graph.cpp 
+#source_task_dag_graph_h      = task_dag_graph.h 
+#source_addr_area_manager_h   = addr_area_manager.h 
+#source_addr_area_manager_cpp = addr_area_manager.cpp 
+#
+#DagTaskScheduler_static: aceMesh_runtime.o task_dag_graph.o addr_area_manager.o
+#	ar r libdag_task_scheduler.a $(LIBFLAGS) aceMesh_runtime.o task_dag_graph.o addr_area_manager.o
+#
+#DagTaskScheduler_dynamic: aceMesh_runtime.o task_dag_graph.o addr_area_manager.o
+#	gcc -fPIC -shared -o libdag_task_scheduler.so aceMesh_runtime.o task_dag_graph.o addr_area_manager.o
+#
+#aceMesh_runtime.o: $(source_aceMesh_cpp) $(source_h) 
+#	$(CC) $(CFLAGS) -c $(source_aceMesh_cpp) 
+#
+#task_dag_graph.o: $(source_task_dag_graph_cpp) $(source_h)  $(source_task_dag_graph_h)
+#	$(CC) $(CFLAGS) -c $(source_task_dag_graph_cpp) 
+#
+#addr_area_manager.o: $(source_addr_area_manager_h) $(source_addr_area_manager_cpp)
+#	$(CC) $(CFLAGS) -c $(source_addr_area_manager_cpp)
+#
+#
+#clean:
+#	-rm *.o > /dev/null 2>&1
+#	-rm *.a > /dev/null 2>&1
+#	-rm *.so > /dev/null 2>&1

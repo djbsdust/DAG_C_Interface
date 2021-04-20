@@ -1,0 +1,20 @@
+We can parallelize three dimensions,
+but its performance is worse than 2d-partitioning
+
+
+
+cpp version , refer to 
+svn://10.3.0.148/AceMesh/runtime/trunk/DagTaskScheduler/src/examples/3d7p-3d
+
+
+about tile shape selection
+  2d-tile is best, for 256^3 problem, 16*16*sizez is almost best
+  3d-tile is always worse than 2d-tile.
+  in machine 81, using 8 threads, 256^3 problem, 40 iters
+   <16,16,256>  0.5    BEST!
+   <32,32,64>   0.91
+   <16,32,128>  0.7
+   <8 ,64,128>  0.74
+
+
+

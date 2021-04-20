@@ -1,0 +1,30 @@
+CC=icpc
+CFLAGS = -std=c++0x -g -D_RETURN_VERTICAL -DCHECK #-DDEBUG_GRAPH  
+LIBFLAGS= -ltbb
+
+
+source_h                   = $(wildcard ../aceMesh_runtime.h) 
+source_aceMesh_cpp         = $(wildcard ../aceMesh_runtime.cpp) 
+source_task_dag_graph_cpp  = $(wildcard ../task_dag_graph.cpp) 
+source_task_dag_graph_h    = $(wildcard ../task_dag_graph.h) 
+source_addr_area_manager_h   = $(wildcard ../addr_area_manager.h) 
+source_addr_area_manager_cpp = $(wildcard ../addr_area_manager.cpp) 
+
+3d7p: 3d7p_aceMesh.o aceMesh_runtime.o task_dag_graph.o addr_area_manager.o 
+	$(CC) -o 3d7p $(CFLAGS) 3d7p_aceMesh.o aceMesh_runtime.o task_dag_graph.o addr_area_manager.o $(LIBFLAGS) 
+
+
+3d7p_aceMesh.o: 3d7p_aceMesh.cpp $(source_h)
+	$(CC) $(CFLAGS) -c 3d7p_aceMesh.cpp  
+
+aceMesh_runtime.o: $(source_aceMesh_cpp) $(source_h) 
+	$(CC) $(CFLAGS) -c $(source_aceMesh_cpp)  
+
+task_dag_graph.o: $(source_task_dag_graph_cpp) $(source_h)  $(source_task_dag_graph_h) $(source_addr_area_manager_h) 
+	$(CC) $(CFLAGS) -c $(source_task_dag_graph_cpp) 
+
+addr_area_manager.o: $(source_addr_area_manager_h) $(source_addr_area_manager_cpp)
+	$(CC) $(CFLAGS) -c $(source_addr_area_manager_cpp) 
+
+clean:
+	rm *.o

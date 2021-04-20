@@ -1,0 +1,1807 @@
+Job <46796985> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : set thread affinity to cpu_id : 64
+
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 1
+exec time : 6.88437
+total task num : 10240
+begin check
+correct
+total time: 6.900938
+dispatching ...
+Job 46796985 has been finished.
+Job <46796987> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 56
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 3
+
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 1
+exec time : 3.45448
+total task num : 10240
+begin check
+correct
+total time: 3.468315
+dispatching ...
+Job 46796987 has been finished.
+Job <46796988> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.88937
+total task num : 10240
+begin check
+correct
+total time: 6.902023
+dispatching ...
+Job 46796988 has been finished.
+Job <46796991> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 62
+
+set thread affinity to cpu_id : 1
+exec time : 3.4552
+total task num : 10240
+begin check
+correct
+total time: 3.469545
+dispatching ...
+Job 46796991 has been finished.
+Job <46796992> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4set thread affinity to cpu_id : 
+5
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.87537
+total task num : 10240
+begin check
+correct
+total time: 6.885917
+dispatching ...
+Job 46796992 has been finished.
+Job <46796993> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 65
+7
+set thread affinity to cpu_id : set thread affinity to cpu_id : 23
+
+
+set thread affinity to cpu_id : 1
+exec time : 3.44977
+total task num : 10240
+begin check
+correct
+total time: 3.463737
+dispatching ...
+Job 46796993 has been finished.
+Job <46796994> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+[46796994 ## Tue Feb  4 22:08:42 2020] 收到作业终止请求（CTRL^C）.
+[46796994 ## Tue Feb  4 22:08:42 2020] 收到作业终止请求（CTRL^C）.
+[46796994 ## Tue Feb  4 22:08:42 2020] 收到作业终止请求（CTRL^C）.
+[46796994 ## Tue Feb  4 22:08:42 2020] 收到作业终止请求（CTRL^C）.
+[46796994 ## Tue Feb  4 22:08:43 2020] 收到作业终止请求（CTRL^C）.
+dispatching ...
+Job <46796994> is being terminated
+Job <46796994> is being terminated
+Job <46796994> is being terminated
+Job <46796994> is being terminated
+Job <46796994> is being terminated
+Job <46796994> is being terminated
+Job 46796994 has been finished. exit_code is 101
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46796995> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : set thread affinity to cpu_id : 47
+set thread affinity to cpu_id : set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 25
+
+
+set thread affinity to cpu_id : 1
+exec time : 3.45375
+total task num : 10240
+begin check
+correct
+total time: 3.467746
+dispatching ...
+Job 46796995 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46796997> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 3set thread affinity to cpu_id : 2
+
+set thread affinity to cpu_id : 1
+exec time : 3.46697
+total task num : 10240
+begin check
+correct
+total time: 3.484885
+dispatching ...
+Job 46796997 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46796998> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.87904
+total task num : 10240
+begin check
+correct
+total time: 6.899606
+dispatching ...
+Job 46796998 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46796999> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 65
+
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 1
+exec time : 3.44973
+total task num : 10240
+begin check
+correct
+total time: 3.463625
+dispatching ...
+Job 46796999 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797000> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.89026
+total task num : 10240
+begin check
+correct
+total time: 6.901969
+dispatching ...
+Job 46797000 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797002> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 7set thread affinity to cpu_id : 
+set thread affinity to cpu_id : 3
+6
+set thread affinity to cpu_id : 1
+exec time : 3.45103
+total task num : 10240
+begin check
+correct
+total time: 3.464704
+dispatching ...
+Job 46797002 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797004> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 54
+
+6
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.86769
+total task num : 10240
+begin check
+correct
+total time: 6.888325
+dispatching ...
+Job 46797004 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797005> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 3.45285
+total task num : 10240
+begin check
+correct
+total time: 3.468288
+dispatching ...
+Job 46797005 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797008> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 7
+6
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.88073
+total task num : 10240
+begin check
+correct
+total time: 6.893703
+dispatching ...
+Job 46797008 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797010> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 5set thread affinity to cpu_id : 3
+
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 3.46769
+total task num : 10240
+begin check
+correct
+total time: 3.483355
+dispatching ...
+Job 46797010 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797014> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.87563
+total task num : 10240
+begin check
+correct
+total time: 6.886204
+dispatching ...
+Job 46797014 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797016> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 3
+7
+6
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 1
+exec time : 3.45322
+total task num : 10240
+begin check
+correct
+total time: 3.467529
+dispatching ...
+Job 46797016 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797017> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.87331
+total task num : 10240
+begin check
+correct
+total time: 6.893937
+dispatching ...
+Job 46797017 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797020> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 3
+6
+set thread affinity to cpu_id : 1
+exec time : 3.45554
+total task num : 10240
+begin check
+correct
+total time: 3.470170
+dispatching ...
+Job 46797020 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797023> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 56
+
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.88709
+total task num : 10240
+begin check
+correct
+total time: 6.897608
+dispatching ...
+Job 46797023 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797024> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 76
+set thread affinity to cpu_id : 
+5
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 1
+exec time : 3.46545
+total task num : 10240
+begin check
+correct
+total time: 3.486559
+dispatching ...
+Job 46797024 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797026> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 6.88252
+total task num : 10240
+begin check
+correct
+total time: 6.893031
+dispatching ...
+Job 46797026 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797032> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 6
+7set thread affinity to cpu_id : set thread affinity to cpu_id : 3
+
+5
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 1
+exec time : 3.45267
+total task num : 10240
+begin check
+correct
+total time: 3.468039
+dispatching ...
+Job 46797032 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797034> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 6
+7
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.87939
+total task num : 10240
+begin check
+correct
+total time: 6.898210
+dispatching ...
+Job 46797034 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797036> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 3
+67
+set thread affinity to cpu_id : 5
+
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 3.44467
+total task num : 10240
+begin check
+correct
+total time: 3.457593
+dispatching ...
+Job 46797036 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797037> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : set thread affinity to cpu_id : 64
+
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 6.87683
+total task num : 10240
+begin check
+correct
+total time: 6.894440
+dispatching ...
+Job 46797037 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797040> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 64
+
+5
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 2set thread affinity to cpu_id : 
+1
+exec time : 3.45711
+total task num : 10240
+begin check
+correct
+total time: 3.474396
+dispatching ...
+Job 46797040 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797042> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4set thread affinity to cpu_id : 
+set thread affinity to cpu_id : set thread affinity to cpu_id : 6
+5
+7
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 1
+exec time : 6.88089
+total task num : 10240
+begin check
+correct
+total time: 6.891611
+dispatching ...
+Job 46797042 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797045> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : set thread affinity to cpu_id : 7
+6
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 1
+exec time : 3.45605
+total task num : 10240
+begin check
+correct
+total time: 3.473932
+dispatching ...
+Job 46797045 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797048> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.8873
+total task num : 10240
+begin check
+correct
+total time: 6.903026
+dispatching ...
+Job 46797048 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797049> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4set thread affinity to cpu_id : 
+5
+set thread affinity to cpu_id : set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 7
+3
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 1
+exec time : 3.45745
+total task num : 10240
+begin check
+correct
+total time: 3.474176
+dispatching ...
+Job 46797049 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797050> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 6
+57
+
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.86871
+total task num : 10240
+begin check
+correct
+total time: 6.889345
+dispatching ...
+Job 46797050 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797052> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 57
+set thread affinity to cpu_id : set thread affinity to cpu_id : 3
+
+6
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 3.45612
+total task num : 10240
+begin check
+correct
+total time: 3.471808
+dispatching ...
+Job 46797052 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797053> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : set thread affinity to cpu_id : 57
+
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 3
+exec time : 6.88448
+total task num : 10240
+begin check
+correct
+total time: 6.895256
+dispatching ...
+Job 46797053 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797054> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 5
+6set thread affinity to cpu_id : 3
+
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+exec time : 3.44703
+total task num : 10240
+begin check
+correct
+total time: 3.460282
+dispatching ...
+Job 46797054 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797056> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 56
+
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.87435
+total task num : 10240
+begin check
+correct
+total time: 6.894980
+dispatching ...
+Job 46797056 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797058> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 27
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : 6
+
+set thread affinity to cpu_id : 3
+set thread affinity to cpu_id : 1
+exec time : 3.45073
+total task num : 10240
+begin check
+correct
+total time: 3.465479
+dispatching ...
+Job 46797058 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797059> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : set thread affinity to cpu_id : 57
+
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 1
+set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 3
+exec time : 6.89015
+total task num : 10240
+begin check
+correct
+total time: 6.903100
+dispatching ...
+Job 46797059 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797062> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 675set thread affinity to cpu_id : 
+
+set thread affinity to cpu_id : 3
+
+2
+set thread affinity to cpu_id : 1
+exec time : 3.45015
+total task num : 10240
+begin check
+correct
+total time: 3.464147
+dispatching ...
+Job 46797062 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797063> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 7
+2
+36
+
+set thread affinity to cpu_id : 1
+exec time : 3.46137
+total task num : 10240
+begin check
+correct
+total time: 3.475190
+dispatching ...
+Job 46797063 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797066> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 6
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 7
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 2
+5
+3
+set thread affinity to cpu_id : 1
+exec time : 3.45704
+total task num : 10240
+begin check
+correct
+total time: 3.471735
+dispatching ...
+Job 46797066 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_expr -n 1 ./3d7p_dag 10 16 16 8
+Job <46797067> has been submitted to queue <q_x86_expr>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : set thread affinity to cpu_id : 276
+5
+
+set thread affinity to cpu_id : 
+3
+set thread affinity to cpu_id : 1
+exec time : 3.45762
+total task num : 10240
+begin check
+correct
+total time: 3.471391
+dispatching ...
+Job 46797067 has been finished.
+icpc  -DCHECK  -O3 -DSIZEX=512 -DSIZEY=512 -DSIZEZ=128 -Wall -I/home/export/online1/nsccwuxi_ict/chenl/gaoxr//include -o 3d7p_dag 3d7p_dag.c -L/home/export/online1/nsccwuxi_ict/chenl/gaoxr//lib -ldag_task_scheduler -ltbb -lrt
+bsub -I -q q_x86_share -n 1 ./3d7p_dag 10 16 16 8
+Job <46797068> has been submitted to queue <q_x86_share>
+waiting for dispatch ...
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+SVN Version Number: r1571 
+svn date: 2018-08-16 11:47:56
+the Compile (Build) Time of this Lib is 2018-10-11 16:09:31
+thread num :8
+processor_ids:  ,0 ,1 ,2 ,3 ,4 ,5 ,6 ,7
+set thread affinity to cpu_id : 0
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:shared_stack
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+/*********************************************/
+set thread affinity to cpu_id : 4
+set thread affinity to cpu_id : 5
+set thread affinity to cpu_id : set thread affinity to cpu_id : 7
+3set thread affinity to cpu_id : 2
+set thread affinity to cpu_id : 
+6
+set thread affinity to cpu_id : 1
+exec time : 3.45956
+total task num : 10240
+begin check
+correct
+total time: 3.477943
+dispatching ...
+Job 46797068 has been finished.

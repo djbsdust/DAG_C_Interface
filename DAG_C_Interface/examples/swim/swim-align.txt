@@ -1,0 +1,35 @@
+      SUBROUTINE CALC1
+! original loop1
+      DO 100 J=1,N
+      DO 100 I=1,M
+      CU(I+1,J) = .5D0*(P(I+1,J)+P(I,J))*U(I+1,J)
+      CV(I,J+1) = .5D0*(P(I,J+1)+P(I,J))*V(I,J+1)
+      Z(I+1,J+1) = (FSDX*(V(I+1,J+1)-V(I,J+1))-FSDY*(U(I+1,J+1)
+     1          -U(I+1,J)))/(P(I,J)+P(I+1,J)+P(I+1,J+1)+P(I,J+1))
+      H(I,J) = P(I,J)+.25D0*(U(I+1,J)*U(I+1,J)+U(I,J)*U(I,J)
+     1               +V(I,J+1)*V(I,J+1)+V(I,J)*V(I,J))
+  100 CONTINUE
+
+!===>trans to 
+
+! peeled part of loop1
+
+      CU(2,1) = .5D0*(P(2,1)+P(1,1))*U(2,1)
+      CV(1,2) = .5D0*(P(1,2)+P(1,1))*V(1,2)
+      H(1,1) = P(1,1)+.25D0*(U(1+1,1)*U(1+1,1)+U(1,1)*U(1,1)
+     1               +V(1,1+1)*V(1,1+1)+V(1,1)*V(1,1))
+!  core part of loop 1
+      DO 101 J=2,N
+      DO 101 I=2,M
+      CU(I,J) = .5D0*(P(I,J)+P(I-1,J))*U(I,J)
+      CV(I,J) = .5D0*(P(I,J)+P(I,J-1))*V(I,J)
+      Z(I,J) = (FSDX*(V(I,J)-V(I-1,J))-FSDY*(U(I,J)
+     1          -U(I,J-1)))/(P(I-1,J-1)+P(I,J-1)+P(I,J)+P(I-1,J))
+      H(I,J) = P(I,J)+.25D0*(U(I+1,J)*U(I+1,J)+U(I,J)*U(I,J)
+     1               +V(I,J+1)*V(I,J+1)+V(I,J)*V(I,J))
+  101 CONTINUE
+
+!------------------------------------------------------------
+C loop2 is similar as the previous one!
+! omitted !
+

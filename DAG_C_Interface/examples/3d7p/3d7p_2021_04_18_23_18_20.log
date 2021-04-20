@@ -1,0 +1,170 @@
+50 8 8 28
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+Git Version Number: 305297d66e33248c6297da003b7c74cb0e0005b1 
+git date: 2020-09-03 10:57:58
+the Compile (Build) Time of this Lib is 2021-04-18 23:17:55
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:stealing
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+ALL_CYCLIC                 : OFF
+/*********************************************/
+endTask refcount: 64
+--exec time : 0.0810712
+endTask refcount: 4096
+--exec time : 2.08247
+total task num: 204864
+remote_access_task_num:142147, local_access_task_num:275645, non_alloc_task_num:0
+LOCAL ACCESS RETIO: 0.659766
+exec time : 2.08247
+total task num : 204864
+total time: 2.288304
+begin check
+correct
+50 8 8 28
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+Git Version Number: 305297d66e33248c6297da003b7c74cb0e0005b1 
+git date: 2020-09-03 10:57:58
+the Compile (Build) Time of this Lib is 2021-04-18 23:17:55
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:stealing
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+ALL_CYCLIC                 : OFF
+/*********************************************/
+endTask refcount: 64
+--exec time : 0.0835372
+endTask refcount: 4096
+--exec time : 2.13518
+total task num: 204864
+remote_access_task_num:130599, local_access_task_num:287193, non_alloc_task_num:0
+LOCAL ACCESS RETIO: 0.687407
+exec time : 2.13518
+total task num : 204864
+total time: 2.329978
+begin check
+correct
+50 8 8 28
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+Git Version Number: 305297d66e33248c6297da003b7c74cb0e0005b1 
+git date: 2020-09-03 10:57:58
+the Compile (Build) Time of this Lib is 2021-04-18 23:17:55
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:stealing
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+ALL_CYCLIC                 : OFF
+/*********************************************/
+endTask refcount: 64
+--exec time : 0.0883932
+endTask refcount: 4096
+--exec time : 2.15479
+total task num: 204864
+remote_access_task_num:159292, local_access_task_num:258500, non_alloc_task_num:0
+LOCAL ACCESS RETIO: 0.618729
+exec time : 2.15479
+total task num : 204864
+total time: 2.529761
+begin check
+correct
+50 8 8 28
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+Git Version Number: 305297d66e33248c6297da003b7c74cb0e0005b1 
+git date: 2020-09-03 10:57:58
+the Compile (Build) Time of this Lib is 2021-04-18 23:17:55
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:stealing
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+ALL_CYCLIC                 : OFF
+/*********************************************/
+endTask refcount: 64
+--exec time : 0.0808602
+endTask refcount: 4096
+--exec time : 2.13688
+total task num: 204864
+remote_access_task_num:158896, local_access_task_num:258896, non_alloc_task_num:0
+LOCAL ACCESS RETIO: 0.619677
+exec time : 2.13688
+total task num : 204864
+total time: 2.494086
+begin check
+correct
+50 8 8 28
+----------------------------------------------
+AceMesh Scheduler's Version Info:
+Git Version Number: 305297d66e33248c6297da003b7c74cb0e0005b1 
+git date: 2020-09-03 10:57:58
+the Compile (Build) Time of this Lib is 2021-04-18 23:17:55
+/*********************************************/
+Current Configurations of the Scheduler:       
+BASIC SCHEDULER            : ACEMESH_OWN 
+DETAILED STRATEGY          : stack,:stealing
+HIER_EXEC                  : OFF
+CPU_BIND                   : ON 
+PAR_REGISTER               : OFF
+DAG_PARTITION              : NONE 
+SCHEDULER_PROFILING        : OFF 
+DEBUG_GRAPH                : OFF 
+PAPI                       : OFF 
+NOT_MPI_STRATEGY           : ON 
+SPECIFY_END_TASKS          : OFF
+MEMORY_POOL                : OFF
+ALL_CYCLIC                 : OFF
+/*********************************************/
+endTask refcount: 64
+--exec time : 0.0848624
+endTask refcount: 4096
+--exec time : 2.17261
+total task num: 204864
+remote_access_task_num:174882, local_access_task_num:242910, non_alloc_task_num:0
+LOCAL ACCESS RETIO: 0.581414
+exec time : 2.17261
+total task num : 204864
+total time: 2.532578
+begin check
+correct
